@@ -1,56 +1,37 @@
-# VortexTech AI & ML - Week 1 Assignment
+# Vortex Tech AI/ML Internship – Week 1
 
-## Data Cleaning and Exploratory Data Analysis using the Titanic Dataset
+## Overview
+This project is my Week 1 submission for the Vortex Tech AI/ML Internship 2026. It demonstrates basic data analysis and preprocessing using the Titanic dataset with Python and Pandas.
 
-### Objective
-This project demonstrates basic data cleaning and exploratory data analysis (EDA) using the Titanic dataset from Kaggle.
+## What I Built
+- Loaded the Titanic dataset
+- Explored the data
+- Handled missing values
+- Removed duplicate records
+- Performed basic statistical analysis
+- Visualized key patterns using graphs
+- Trained a Machine Learning model to predict passenger survival
+- Evaluated the model using Accuracy, Precision, Recall, and F1 Score
 
-### Dataset
-- Titanic Dataset (Kaggle)
-- Number of records: 891
-
-### Tasks Completed
-- Loaded the dataset using Pandas.
-- Identified missing values.
-- Checked for duplicate rows.
-- Handled missing values.
-- Verified duplicate records.
-- Converted appropriate columns to categorical data types.
-- Generated summary statistics.
-- Created visualizations:
-  - Histogram of passenger ages.
-  - Bar chart showing passenger class distribution.
-
-### Technologies Used
+## Technologies Used
 - Python
 - Pandas
+- NumPy
 - Matplotlib
 - Seaborn
+- Scikit-learn
 - Jupyter Notebook
 
-### Files Included
-- Titanic_Assignment.ipynb
-- train.csv (optional)
-- README.md
+## Files
+- `Titanic_Analysis.ipynb` – Complete notebook
+- `train.csv` – Dataset
 
-### How to Run
-
-1. Clone the repository:
-
-```bash
-git clone <repository-link>
-```
-
-2. Install dependencies:
-
-```bash
-pip install pandas matplotlib seaborn notebook
-```
-
-3. Start Jupyter Notebook:
-
-```bash
-jupyter notebook
-```
-
-4. Open `Titanic_Assignment.ipynb` and run all cells.
+## How to Run
+1. Clone this repository.
+2. Install the required Python libraries:
+   ```
+   pip install pandas numpy matplotlib seaborn scikit-learn jupyter
+   ```
+3. Open Jupyter Notebook.
+4. Open `Titanic_Analysis.ipynb`.
+5. Run all cells in order.
